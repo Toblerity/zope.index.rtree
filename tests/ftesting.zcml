@@ -1,0 +1,5 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   i18n_domain="anima" package="anima.core.content.index.spatial">
+
+</configure>

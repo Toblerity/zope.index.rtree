@@ -234,7 +234,7 @@ import persistent
 import transaction
 import zope.interface
 
-from anima.core.content.index.spatial.index import SpatialIndex
+from zope.index.SpatialIndex import SpatialIndex
 
 class IBounded(zope.interface.Interface):
     boundingBox = zope.interface.Attribute('boundingBox', 'A bounding box')

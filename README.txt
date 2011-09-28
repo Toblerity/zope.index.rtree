@@ -1,9 +1,9 @@
 =========================
-anima.core.content.index.spatial
+zope.index.SpatialIndex
 =========================
 
-The package `anima.core.content.index.spatial` provides a 2d, 3d, n-d spatial index. 
-It builts upon the python rtree package which has a fast underlying C library.
+The package `zope.index.SpatialIndex` provides a 2d, 3d, n-d spatial index. 
+It builds upon the python rtree package which has a fast underlying C library.
 Furthermore, this index integrates fully with the zodb, including transactions.
 
 You can index bounding boxes and points currently.

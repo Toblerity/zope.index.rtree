@@ -38,5 +38,5 @@ def siteTearDown(test):
     zope.component.hooks.setSite()
 
 
-class AnimaCoreIndexSpatialLayer(ZCMLFileLayer):
+class SpatialIndexCoreIndexSpatialLayer(ZCMLFileLayer):
     pass
